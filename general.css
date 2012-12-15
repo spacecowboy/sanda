@@ -1,7 +1,7 @@
 body {
-    background-color: #eee;
     margin:50px 0px; padding:0px;
 	text-align:center;
+    background: #eee url(header.jpg) center no-repeat;
 }
 
 div.content {
@@ -55,19 +55,19 @@ h2 {
 h3 {
 	color:#888;
 	font-size:0.8em;
-	font-weight:800;
+	font-weight:400;
 	margin:3em 0 0.6em;
     font-variant:small-caps;
 	}
 
 p {
 	margin:0 0 1em 0;
-    font:verdana, arial, helvetica, sans-serif;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:1em;
 }
 p.name {
     margin:0 0 0.2em 1em;
-    font:verdana, arial, helvetica, sans-serif;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:1.0em;
     font-variant:small-caps;
 }
