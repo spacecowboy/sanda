@@ -1,0 +1,116 @@
+body {
+    background-color: #eee;
+    margin:50px 0px; padding:0px;
+	text-align:center;
+}
+
+div.content {
+    width:500px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+border:1px solid #333;
+	background-color:white;
+}
+div.title {
+    text-align:center;
+}
+hr {
+    color:#888;
+    background-color:#888;
+    height: 1px;
+}
+span.startletter {
+    color:#666;
+	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:900;
+    font-size:1.5em;
+    margin:0 0 0 0;
+}
+span.rest {
+    color:#888;
+	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:900;
+    font-size:1.5em;
+}
+span.second {
+    color:#888;
+	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:900;
+    font-size:1.2em;
+}
+
+h1 {
+	color:#333;
+	font:1.8em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:900;
+	;
+	}
+h2 {
+	color:#333;
+	font:1.1em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+	margin:2em 0 .25em;
+	}
+h3 {
+	color:#888;
+	font-size:0.8em;
+	font-weight:800;
+	margin:3em 0 0.6em;
+    font-variant:small-caps;
+	}
+
+p {
+	margin:0 0 1em 0;
+    font:verdana, arial, helvetica, sans-serif;
+	font-size:1em;
+}
+p.name {
+    margin:0 0 0.2em 1em;
+    font:verdana, arial, helvetica, sans-serif;
+	font-size:1.0em;
+    font-variant:small-caps;
+}
+p.mail {
+    margin:0 0 0.7em 1em;
+    font:verdana, arial, helvetica, sans-serif;
+	font-size:0.9em;
+}
+
+#Content p+p {margin-top:-1em; text-indent:2.7em;}
+
+ol, ul {
+	margin-top:0;
+	margin-bottom:1em;
+	line-height:1.8;
+	}
+#Content p+ol, #Content p+ul {margin-top:0em;}
+
+a {
+	color:#5583A3;
+	text-decoration:none;
+	font-weight:600;
+	}
+a:link {color:#5583A3;}
+a:visited {color:#07a;}
+a:hover {background-color:white;}
+
+#Footnotes p+p {margin-top:0; text-indent:0;}
+
+.keyPoint {
+	margin:0 0 1.5em; padding:0;
+	border:1px dashed #666;
+	background-color:white;
+	}
+.keyPoint p {
+	font:1.63em/1.8 Georgia, "Times New Roman", Times, serif;
+	margin:.5em 1em;
+}
+.keyPoint p+p {margin-top:-.5em;}
+
+.markup {
+	font:1em/1.25 monospace;
+	border:1px dashed #999;
+	text-indent:0 !important;
+	padding:.3em;
+}
