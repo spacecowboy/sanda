@@ -19,22 +19,22 @@ hr {
 }
 span.startletter {
     color:#666;
-	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
-	font-weight:900;
-    font-size:1.5em;
+	font-family:"Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+    font-size:2.0em;
     margin:0 0 0 0;
 }
 span.rest {
     color:#888;
-	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
-	font-weight:900;
-    font-size:1.5em;
+	font-family:"Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+    font-size:2.0em;
 }
 span.second {
     color:#888;
-	font:2.0em/1 Georgia, "Times New Roman", Times, serif;
-	font-weight:900;
-    font-size:1.2em;
+	font-family:"Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-weight:400;
+    font-size:1.4em;
 }
 
 h1 {
@@ -52,37 +52,45 @@ h2 {
 h3 {
 	color:#888;
 	font-size:0.8em;
-	font-weight:400;
 	margin:3em 0 0.6em;
     font-variant:small-caps;
-	}
+	font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+    font-weight:300;
+}
 
 p {
 	margin:0 0 1em 0;
     font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:1em;
+    font-weight:300;
 }
 p.name {
     margin:0 0 0.2em 1em;
     font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:1.0em;
     font-variant:small-caps;
+    font-weight:300;
 }
 p.mail {
     margin:0 0 0.7em 1em;
     font:verdana, arial, helvetica, sans-serif;
 	font-size:0.9em;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+    font-weight:300;
+
 }
 p.phone {
     margin:1.5em 0 0.2em 1.3em;
     font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:0.9em;
     font-variant:small-caps;
+    font-weight:300;
 }
 p.address {
     margin:0 0 0.2em 1.3em;
     font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
 	font-size:0.8em;
+    font-weight:300;
 }
 
 #Content p+p {margin-top:-1em; text-indent:2.7em;}
