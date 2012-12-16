@@ -3,16 +3,182 @@
 <html>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <head>
+<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
   <title>Sanda Agenturer</title>
 </head>
-<link rel='stylesheet' href='general.css' type='text/css'/>
 <!--
-<style type="text/css">
-@import "general.css";
+<link rel='stylesheet' href='general.css' type='text/css'/>
+-->
 
-</style>-->
+<style type="text/css">
+body {
+    margin:50px 0px;
+    padding:0px;
+	text-align:center;
+}
+
+div.content {
+	text-align:left;
+	background-color:white;
+    margin:0px auto;
+}
+div.title {
+    text-align:center;
+}
+hr {
+    color:#888;
+    background-color:#888;
+    height: 1px;
+}
+span.startletter {
+    color:#666;
+	font-family: "Old Standard TT", Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+    font-size:2.0em;
+    line-height:1;
+    margin:0 0 0 0;
+}
+span.rest {
+    color:#888;
+	font-family: "Old Standard TT", Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+    font-size:2.0em;
+    line-height:1;
+}
+span.second {
+    color:#888;
+	font-family: "Old Standard TT", Georgia, "Times New Roman", Times, serif;
+	font-weight:700;
+    font-size:1.4em;
+    line-height:1;
+}
+h3 {
+	color:#888;
+	font-size:0.8em;
+	margin:3em 0 0.6em;
+    font-variant:small-caps;
+	font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+    font-weight:300;
+}
+
+p {
+	margin:0 0 1em 0;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+	font-size:1em;
+    font-weight:300;
+}
+p.name {
+    margin:0 0 0.2em 1em;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+	font-size:1.0em;
+    font-variant:small-caps;
+    font-weight:300;
+}
+p.mail {
+    margin:0 0 0.7em 1em;
+    font:verdana, arial, helvetica, sans-serif;
+	font-size:0.9em;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+    font-weight:300;
+
+}
+p.phone {
+    margin:1.5em 0 0.2em 1.3em;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+	font-size:0.9em;
+    font-variant:small-caps;
+    font-weight:300;
+}
+p.address {
+    margin:0 0 0.2em 1.3em;
+    font-family:"Open Sans", helvetica, arial, verdana, sans-serif;
+	font-size:0.8em;
+    font-weight:300;
+}
+a {
+    color:#5583A3;
+    text-decoration:none;
+    font-weight:600;
+}
+a:link {color:#5583A3;}
+a:visited {color:#07a;}
+a:hover {background-color:white;}
+
+/* Device specific stuff */
+@media screen and (min-width: 1680px) {
+    html {
+	    background: url(backgroundfull.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1679px) {
+    html {
+	    background: url(backgroundhigh.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 999px) {
+    html {
+	    background: url(backgroundlow.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    html {
+	    background: url(backgroundlowest.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:90%;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media print {
+    html {
+	    background: white;
+    }
+    div.content {
+        width:98%;
+        padding:15px;
+        border:1px solid #333;
+    }
+
+}
+
+</style>
 <body>
 
 <div class="content">
