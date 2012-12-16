@@ -1,0 +1,12 @@
+html {
+	background: url(backgroundlow.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+div.content {
+    width:500px;
+    padding:15px;
+    border:1px solid #333;
+}

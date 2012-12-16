@@ -2,7 +2,6 @@ body {
     margin:50px 0px;
     padding:0px;
 	text-align:center;
-    /*background: #eee url(backgroundsharpfull.jpg) no-repeat center top;*/
 }
 
 div.content {
@@ -122,4 +121,76 @@ a:hover {background-color:white;}
 	border:1px dashed #999;
 	text-indent:0 !important;
 	padding:.3em;
+}
+/* Device specific stuff */
+@media screen and (min-width: 1680px) {
+    html {
+	    background: url(backgroundfull.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1679px) {
+    html {
+	    background: url(backgroundhigh.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 999px) {
+    html {
+	    background: url(backgroundlow.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:500px;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    html {
+	    background: url(backgroundlowest.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+    }
+    div.content {
+        width:90%;
+        padding:15px;
+        border:1px solid #333;
+    }
+}
+
+@media print {
+    html {
+	    background: white;
+    }
+    div.content {
+        width:98%;
+        padding:15px;
+        border:1px solid #333;
+    }
+
 }
